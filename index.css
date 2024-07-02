@@ -1,0 +1,127 @@
+
+html {
+    font-size: 100%; 
+   
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+}
+.image-container {
+    text-align: center; 
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    border: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.goal {
+    margin: 20px 0;
+    text-align: center;
+}
+.goals{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    /* font-size: 28px; */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 24px;
+    height: 200px ;
+    background-color:#fff; 
+    box-shadow: 10px 10px 20px hsl(229, 6%, 66%);
+    line-height: 1;
+}
+
+.goals h2 {
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+.goals p {
+    font-size: 16px;
+}
+.box1{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.box2{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.box3{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.box4{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+.box5{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.box6{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+footer {
+    text-align: center;
+    padding: 5px 10px;
+    background: #333;
+    color: white;
+}
+
+footer h2 {
+    font-size: 2em;
+}
+
+footer p {
+    font-size: 1em;
+}
+.wrapper{
+    display: none;
+}
+@media  screen and (min-width:1024px) {
+    
+        
+    #firstimg{
+        display: none;
+    }
+    header{
+        background-color: #f2f2f2;
+        margin: 0;
+        height: 70px;
+        text-align: center;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .profile{
+        display: none;
+    }
+    .goals{
+        margin: 7px;
+    }
+    .goals2{
+        display: flex;
+        flex-direction: row;
+        
+    }
+   .goals p{
+        font-size: 14px;
+    }
+    .about{
+        font-size: x-large;
+    }
+    .goals h3{
+        margin-top: 0;
+    }
+}
